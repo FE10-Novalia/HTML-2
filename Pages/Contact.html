@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="../Assets/logo-ALTA.png" alt="logo-ALTA">
+        </div>
+        <ul>
+            <li><a href="./Home.html" id="home">HOME</a> </li>
+            <li><a href="./About.html" id="about">ABOUT</a> </li>
+            <li><a href="./Contact.html" id="contact">CONTACT</a></li>
+            <li><a href="./Experience.html" id="experience">EXPERIENCE</a> </li>
+            
+        </ul>
+    </nav>
+
+    <!--  Content -->
+   <main>
+    <img src="../Assets/logo-ALTA.png" alt="logo-ALTA">
+
+    <!-- form -->
+    <form action="get">
+        <h5>Contact Us</h5>
+        <div>
+            <label for="name">Full Name<sup>&lowast;</sup></label>
+            <input type="text" id="name" value="Winda Pramesti">
+        </div>
+        <div>
+            <label for="email">Email Address<sup>&lowast;</sup></label>
+            <input type="text" id="email" placeholder="example@alterra.id">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" placeholder="085554447900">
+        </div>
+        <div>
+            <label for="role">Role</label>
+            <select id="role">
+                <option value="1">Selected</option>
+                <option value="2">Option 1</option>
+                <option value="3">Option 2</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+   </main>
+</body>
+</html>
